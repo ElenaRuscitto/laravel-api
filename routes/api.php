@@ -22,5 +22,5 @@ Route::get('/types', [ProjectController::class, 'getTypes']);
 Route::get('/technologies', [ProjectController::class, 'getTechnologies']);
 Route::get('/project-by-slug/{slug}', [ProjectController::class, 'getProjectBySlug']);
 Route::get('/projects-by-type/{slug}', [ProjectController::class, 'getProjectsByType']);
-Route::get('/projects-by-technology/{slug}', [ProjectController::class, 'getProjectsByTechnology']);
+Route::get('/technology-projects/{slug}', [ProjectController::class, 'getProjectsByTechnology']);
 Route::post('/send-email', [LeadController::class, 'store']);
