@@ -1,0 +1,22 @@
+aside {
+    background-color: rgb(26, 38, 57);
+    height: calc(100vh - 80px);
+    width: 180px;
+    // overflow: hidden;
+    // z-index: 9999;
+    top: 65px;
+
+    position: fixed;
+
+    ul {
+        list-style: none;
+        padding-left: 15px !important;
+        li {
+            a {
+                font-size: .9rem;
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}

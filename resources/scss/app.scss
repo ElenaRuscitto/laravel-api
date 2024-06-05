@@ -1,0 +1,66 @@
+@import '~bootstrap/scss/bootstrap';
+@import 'partials/aside.scss';
+
+header {
+    height: 85px;
+    background-color: rgb(26, 38, 57) !important;
+}
+
+.my-a {
+    &:hover {
+        color: rgb(11, 94, 215) !important;
+    }
+}
+// /header
+
+
+
+.my-navbar {
+    background-color: rgb(26, 38, 57) !important;
+    color: white;
+    a {
+        color: white;
+    }
+}
+
+
+.my-container {
+    margin-top: 120px !important;
+    margin-left: 190px !important;
+}
+
+
+input,
+textarea {
+    border: none !important;
+    outline: none !important;
+}
+
+.my-card {
+    background-color: rgb(52, 73, 94);
+}
+
+.text-small {
+    font-size: small;
+}
+
+.text-myColor {
+    color: rgb(52, 73, 94)
+}
+
+.my-ul {
+    list-style: none;
+    padding-left: 0 !important;
+}
+
+p {
+    margin: 0 !important;
+}
+
+.my-img {
+    width: 500px;
+}
+
+.my-badge {
+    color: black;
+}
